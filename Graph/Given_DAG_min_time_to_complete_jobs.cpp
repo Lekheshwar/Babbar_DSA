@@ -16,7 +16,6 @@ void addEdge(int u, int v) {
 
 void solve(int n, int m) {
 	queue<int> q;
-	std::vector<bool> vis(n + 1, false);
 
 	for (int i = 1; i < n + 1; ++i)
 	{
